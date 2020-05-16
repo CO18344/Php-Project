@@ -1,0 +1,172 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding-left: 1em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background: #1a446c;
+	font-size: 36pt;
+	color:white;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.sidenav
+{
+	background: #8d0d19;
+	height: 100vh;
+	width: 275px;
+}
+
+#mainMenu
+{
+	color: white;
+ 	text-decoration: underline;
+}
+
+.sidenav a
+{
+	color: white;
+}
+
+.sidenav a:link
+{
+	text-decoration: none;
+}
+
+.sidenav p a{
+	position: relative;
+	left: 69px;
+	color: white;
+}
+
+.sidenav ul li{
+	position: relative;
+	left: 69px;
+	color: white;
+}
+
+.manageScreen
+{
+	font-size: 14pt;
+	position: relative;
+	left:20px;
+	width:70%;
+}
+
+.login
+{
+	font-size: 18pt;
+	position: relative;
+	left:20px;
+	width:70%;
+}
+.heading
+{
+	color: #8d0d19;
+}
+
+.manageform
+{
+ position: relative;
+ left:20px;
+}
+
+.welcome
+{
+	position: relative;
+	left: 20px;
+}
+
+.manageform p
+{
+  font-size: 14pt;
+}
+
+.properties
+{
+	font-size: 12pt;
+	margin-bottom:8px;
+	overflow: auto;
+}
+
+.links_on_page a{
+	color: #8d0d19;
+}
+
+.links_on_page li
+{
+	color: black;
+}
+
+.links_on_page{
+
+	margin-top: 20px;
+
+}
+
+form p
+{
+	position: relative;
+}
+
+form p input
+{
+	position: absolute;
+	left: 200px;
+}
+
+label{
+ 	font-size: 12pt;
+ 	position: absolute;
+	left: 150px;
+ }
+
+ #yes,#no
+ {
+ 	position: absolute;
+ 	left:180px;
+ }
+
+ hr
+ {
+ 	margin-top: 24px;
+ }
+
+ #submit
+ {
+ 	left:0px;
+ 	font-size: 14pt;
+ }
+
+ textarea
+ {
+ 	font-size: 12pt;
+ 	border: 2px solid black;
+ 	
+ }
+
+.success
+{
+	margin-top: 20px;
+	font-size: 18pt;
+	color:green;
+}
+
+#actions
+{
+	position: relative;
+	left: 400px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
