@@ -5,6 +5,7 @@ body
 }
 
 header{
+	position: relative;
 	padding-left: 1em;
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -69,6 +70,7 @@ header{
 }
 .heading
 {
+
 	color: #8d0d19;
 }
 
@@ -170,3 +172,82 @@ a.disabled {
   cursor: default;
 }
 
+.entered
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+
+}
+
+#tutorial
+{
+	width:100px;
+	height: 40px;
+	position: absolute;
+	right: 2%;
+	bottom: 10%;
+
+}
+
+#up
+{
+	position: absolute;
+	width:80px;
+	height: 80px;
+	right: 4%;
+	bottom: -60%;
+	animation-name: moveupdown;
+	animation-duration: 1.5s;
+	animation-iteration-count: 2;
+	animation-timing-function: ease;
+	animation-play-state: paused;
+}
+
+@keyframes moveupdown
+{
+	0%
+	{
+		bottom: -60%;
+	}
+	45%{
+		bottom: -75%;
+	}
+	85%{
+		bottom: -45%;
+	}
+	100%
+	{
+		bottom: -60%;
+	}
+}
+
+#left
+{
+	display: none;
+	position: relative;
+	transform: rotate(-90deg);
+	width:80px;
+	height: 80px;
+	animation-name: moveleftright;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-timing-function: ease;
+	animation-play-state: paused;
+}
+
+@keyframes moveleftright
+{
+	0%{
+		left:0%;
+	}
+	35%{
+		left: -5%;
+	}
+	70%{
+		left: 5%;
+	}
+	100%{
+		left: 0%;
+	}
+}
